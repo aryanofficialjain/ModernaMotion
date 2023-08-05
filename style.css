@@ -157,3 +157,99 @@ html, body{
 .lastele{
     border-bottom: 1px solid #888;
 }
+
+#about{
+    padding-top: 180px;
+    /* background-color: red; */
+    font-family: "General Sans", sans-serif;
+
+}
+
+#about-item{
+    width: 60%;
+    margin-left: auto;
+    margin-right: 130px;
+    /* background-color: purple; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    gap: 50px;
+}
+
+#about-item img{
+    width: 180px;
+}
+
+#about-item p{
+    font-size: 1.2rem;
+    width: 30rem;
+    /* background-color: yellow; */
+}
+
+#para{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#para h4{
+    opacity: .5;
+}
+
+#para a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 6px 20px;
+    width: fit-content;
+}
+
+#channel{
+    /* background-color: red; */
+    padding: 20px;
+    margin-top: 80px;
+    font-family: "General Sans", sans-serif;
+    text-transform: uppercase;
+    color: white;
+
+}
+
+#channel h4{
+    opacity: .5;
+    padding: 10px;
+}
+
+#channel a{
+    text-decoration: none;
+    color: white;
+
+}
+
+footer{
+    font-family: "General Sans", sans-serif;
+    padding: 25px 25px 10px 25px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+    font-size: 1.4vw;
+    justify-content: space-between;
+
+}
+
+.left-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.right-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
