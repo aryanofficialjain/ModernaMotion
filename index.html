@@ -5,8 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="loco.css">
+    <style>
+        /* Hide scrollbar for Chrome, Safari, and newer versions of Edge */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+* {
+  scrollbar-width: none;
+}
+
+/* Hide scrollbar for IE 10+ */
+*::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+/* Hide scrollbar for IE 11 */
+*::-ms-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+/* Hide scrollbar for older versions of Edge (legacy) */
+*::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+    </style>
 </head>
 <body>
+    <div id="mouse-circle"></div>
     <div id="main">
         <div id="hero">
             <div id="nav">
@@ -87,12 +119,15 @@
                 <h5>TWITTER</h5>
             </div>
         </footer>
-
-
-
     </div>
 
 
     <script src="https://kit.fontawesome.com/18d5e5a3ba.js" crossorigin="anonymous"></script>    
+    <script src="logic.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
 </body>
 </html>
